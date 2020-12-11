@@ -1600,6 +1600,7 @@ input, select, textarea {
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
+		text-decoration: none;
 	}
 
 		input[type="button"]:hover,
@@ -1779,7 +1780,7 @@ input, select, textarea {
 			position: relative;
 			display: inline-block;
 			color: #ffffff;
-			width: 1em;
+			width: .75em;
 			height: 1em;
 			line-height: 0.9em;
 			font-size: 2.5em;
@@ -1804,7 +1805,7 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-				left: 50%;
+				left:60%;
 				bottom: -0.75em;
 				margin-left: -0.5em;
 				border-bottom: solid 0em #ffffff;
@@ -2189,3 +2190,17 @@ input, select, textarea {
 			}
 
 		}
+
+/* tech logos */
+
+.techContainer{
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+
+.tech{
+	height: 70px;
+	margin: 10px;
+}
