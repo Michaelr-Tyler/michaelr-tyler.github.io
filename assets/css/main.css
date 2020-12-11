@@ -1970,6 +1970,7 @@ input, select, textarea {
 			#main > .panel.inactive {
 				opacity: 0;
 			}
+			
 
 			@media screen and (max-width: 736px) {
 
@@ -1994,6 +1995,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
+				
 			}
 
 				#main > .panel.intro .pic {
@@ -2029,7 +2031,7 @@ input, select, textarea {
 						top: 0;
 						left: 0;
 						width: 100%;
-						height: 100%;
+						height: 150%;
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
 						-ms-object-fit: cover;
